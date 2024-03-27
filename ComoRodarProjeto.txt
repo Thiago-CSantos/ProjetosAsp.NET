@@ -1,0 +1,9 @@
+NÃO PRECISA USAR OS SCRIPTS DO ARQUIVO 'MCBDSBHM.sql'
+
+Banco de dados: PostgreSQL.
+
+Deve ter instalado PostgreSQL, Database=PROJETO_DEVdb, Password=root e Port=5432
+
+
+Rodar: Add-Migration IniciandoMigration
+Update-Database
