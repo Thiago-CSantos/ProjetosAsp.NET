@@ -1,0 +1,47 @@
+﻿@model IEnumerable<ProjetoDev1.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de usuários cadastrados</h1>
+
+<p>
+    <a asp-action="Create"><i class="fa fa-circle-plus fa-xl" style="color:#00D673;"></i></a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Senha)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Senha)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-pen-to-square"></i></a> |
+                    <a asp-action="Details" asp-route-id="@item.Id"><i class="fa fa-circle-info" style="color:gray"></i></a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id"><i class="fa-solid fa-trash" style="color:orangered"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

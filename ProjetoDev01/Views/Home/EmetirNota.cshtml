@@ -1,0 +1,146 @@
+﻿@{
+    ViewData["Title"] = "Simulação de atividades";
+}
+
+<div class=" teste">
+    <h1 >@ViewData["Title"]</h1>
+    <form action="/" method="post" id="IdForm">
+
+        <div class="form-row ">
+            <div class="col-3 mb-3 d-flex">
+                <label for="validationDefault01" class="text-nowrap d-flex align-items-center"
+                       style="padding-right: 5px; font-weight:bold">Código atividade: </label>
+                <input type="number" class="form-control"  id="IdCodigoAtividade" placeholder="codigo..." style="width:150px;"
+                       required name="CodAtividade">
+                <button class="btn" onclick="buscarDados()" type="button"><i class="fa fa-search"></i></button>
+            </div>
+            <div id="resultado">
+                <h2>Pesquise pelo codigo da atividade! </h2>
+            </div>
+        </div>
+        <br>
+    </form>
+    
+</div>
+
+<script>
+    var aliquotaG = 0;
+    function buscarDados(){
+
+        var valorServico = document.getElementById('IdValorServico');
+        var deducoes = document.getElementById('IdDeducoes');
+        var resultatoDiv = document.getElementById("resultado");
+        var result = document.getElementById('Idresult');
+
+        let valorCodigoAtividade = document.getElementById('IdCodigoAtividade').value;
+        console.log(typeof valorCodigoAtividade);
+
+        var formData = new FormData();
+        formData.append('codigoAtividade', valorCodigoAtividade);
+
+        fetch('@Url.Action("buscaCodigo", "Atividades")?codigoAtividade='+ valorCodigoAtividade, { // o login é o metodo dendro do UsuariosController)
+            method: 'GET'
+        }).then(response => {
+            // Verifica se a requisição foi bem sucedida (status code 200-299)
+            if (!response.ok) {
+                throw new Error('Erro ao buscar atividade: ' + response.status + ' : Codigo não encontrado');
+            }
+            // Parseando a resposta JSON
+            return response.json();
+        })
+            .then(data => {
+                let aliquota = data.aliquota / 100;
+                aliquotaG = aliquota;
+                let responsavel = "...";
+
+                if (data.ativPrevistaExcecao === "Nao" && data.retencaoObrigatoria === "Nao") {
+                    responsavel = "Prestador de Serviços";
+                }
+                else if (data.ativPrevistaExcecao === "Sim" && data.recolhimento === "Fora do município") {
+                    responsavel = "Prestador de Serviços";
+                }
+                else if (data.ativPrevistaExcecao === "Sim" && data.recolhimento === "Dentro do município") {
+                    responsavel = "Tomador de Serviços";
+                }
+
+
+                console.log(data)
+                resultatoDiv.innerHTML =
+                    `
+                <div class="col-md-4 mb-3 d-flex">
+                        <label for="validationDefault02" class="text-nowrap d-flex align-items-center"
+                         style="padding-right: 5px; font-weight:bold">Grupo: </label>
+                        <input type="text" class="form-control" id="validationDefault02" placeholder="grupo..."
+                         required readonly name="GrupoAtividade" value="${data.grupo}">
+                    </div>
+                    <div class="col-md-4 mb-3 d-flex">
+                        <label for="validationDefault02" class="text-nowrap d-flex align-items-center"
+                         style="padding-right: 5px; font-weight:bold">Código Federal: </label>
+                        <input type="number" class="form-control" id="validationDefault02" placeholder="código federal"
+                         required readonly name="CodFederal" value="${data.codigoFederal}">
+                    </div>
+                    <div class="col-md-5">
+                        <label for="exampleFormControlTextarea1" style="font-weight:bold">Descrição: </label>
+                        <textarea readonly class="form-control mb-3" id="exampleFormControlTextarea1" rows="1" name="Descricao">${data.descricao}</textarea>
+                    </div>
+                    <div class="col-md-3 mb-3 d-flex">
+                        <label for="validationDefaultUsername" class="text-nowrap d-flex align-items-center"
+                        style="padding-right: 5px; font-weight:bold">Atividade prevista na Exceção: </label>
+                        <input id="inputEstado" class="form-control" required name="Excecao" value="${data.ativPrevistaExcecao}" readonly style="width: 70px;">
+                    </div>
+                    <div class="col-md-3 mb-3 d-flex">
+                        <label for="validationDefault03" class="text-nowrap d-flex align-items-center"
+                            style="padding-right: 5px; font-weight:bold">Retenção obrigatória: </label>
+                            <input class="form-control" type="text" id="gridRadios1" name="RetencaoObrigatoria" value="${data.retencaoObrigatoria}" readonly style="width: 70px;">
+                    </div>
+                    <div class="col-md-3 mb-3 d-flex">
+                        <label for="validationDefault04" class="text-nowrap d-flex align-items-center"
+                            style="padding-right: 5px; font-weight:bold">Alíquota: </label>
+                        <input type="text" class="form-control" id="idAliquota" placeholder="0,00" required name="Aliquota" readonly value="${aliquota}% " >
+                    </div>
+                    <div class="col-md-3 mb-3 d-flex">
+                        <label for="validationDefault04" class="text-nowrap d-flex align-items-center"
+                                style="padding-right: 5px; font-weight:bold">Recolhimento: </label>
+                            <input type="text" class="form-control" id="IdRecolhimento" placeholder="0,00" required name="Recolhimento" readonly value="${data.recolhimento}" style="width:190px;">
+                    </div>
+                    <div class="col-md-3 mb-3 d-flex">
+                        <label for="validationDefault04" class="text-nowrap d-flex align-items-center"
+                                style="padding-right: 5px; font-weight:bold">Responsável pelo recolhimento: </label>
+                            <input type="text" class="form-control" id="IdRecolhimento" placeholder="0,00" required name="Responsavel" readonly value="${responsavel}" style="width:190px;">
+                    </div>
+                    <div class="col-3 mb-3 d-flex">
+                    <label for="validationDefault01" class="text-nowrap d-flex align-items-center"
+                           style="padding-right: 5px; font-weight:bold">Valor do serviço: </label>
+                    <input type="number" class="form-control" id="IdValorServico" placeholder="$100" style="width:150px;"
+                           required name="ValorServico">
+                    <label for="validationDefault01" class="text-nowrap d-flex align-items-center"
+                           style="padding-right: 5px; font-weight:bold">Deduções: </label>
+                    <input type="number" class="form-control" id="IdDeducoes" placeholder="$100" style="width:150px;"
+                           required name="Deducoes">
+                    </div>
+                        <h3 style="display:flex;" id="Idresult">Valor do ISSQN: <p id="Idp"></p></h3>
+                        <button type="button" class="btn btn-outline-primary" onclick="simularISSQN()">Calcular</button>
+                    <a href="http://localhost:5011/listarAtividades" class="btn btn-danger">Voltar</a>
+            `;
+
+
+            })
+            .catch(error => {
+                // Manipulando erros
+                console.error('Erro:', error.message);
+            });
+    }
+    function simularISSQN() {
+
+        var valorServico = document.getElementById('IdValorServico').value;
+        var deducoes = document.getElementById('IdDeducoes').value;
+        var pp = document.getElementById('Idp');
+
+        let valorISSQN = (valorServico - deducoes)*(aliquotaG / 100);
+        console.log('Valor: ' + valorISSQN);
+
+        pp.innerHTML = `R$ ${valorISSQN.toFixed(2)}`;
+
+    }
+    console.log("TEste");
+</script>

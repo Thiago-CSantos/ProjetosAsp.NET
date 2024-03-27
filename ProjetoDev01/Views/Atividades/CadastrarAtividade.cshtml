@@ -1,0 +1,180 @@
+﻿@{
+    ViewData["Title"] = "Cadastrar Atividades";
+}
+
+@{
+    if (ViewBag.parametro != null)
+    {
+                    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                        Cadastrado com <strong>@ViewBag.parametro</strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+    }
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form action="/Home/CadastrarAtividade" method="post" class="container-fluid" id="Idform">
+    <div class="form-row ">
+        <div class="col-3 mb-3 d-flex">
+            <label for="validationDefault01" class="text-nowrap d-flex align-items-center"
+                   style="padding-right: 5px; font-weight:bold">Código atividade: </label>
+            <input type="number" class="form-control" id="validationDefault01" placeholder="codigo..."
+                   required name="CodAtividade">
+        </div>
+        <div class="col-md-4 mb-3 d-flex">
+            <label for="validationDefault02" class="text-nowrap d-flex align-items-center"
+                   style="padding-right: 5px; font-weight:bold">Grupo: </label>
+            <input type="text" class="form-control" id="validationDefault02" placeholder="grupo..."
+                   required name="GrupoAtividade">
+        </div>
+        <div class="col-md-4 mb-3 d-flex">
+            <label for="validationDefault02" class="text-nowrap d-flex align-items-center"
+                   style="padding-right: 5px; font-weight:bold">Código Federal: </label>
+            <input type="number" class="form-control" id="validationDefault02" placeholder="grupo..."
+                   required name="CodFederal">
+        </div>
+        <div class="col-md-5">
+            <label for="exampleFormControlTextarea1" style="font-weight:bold">Descrição: </label>
+            <textarea class="form-control mb-3" id="exampleFormControlTextarea1" rows="1" name="Descricao"></textarea>
+        </div>
+        <div class="col-md-3 mb-3 d-flex">
+            <label for="validationDefaultUsername" class="text-nowrap d-flex align-items-center"
+                   style="padding-right: 5px; font-weight:bold">Atividade prevista na Exceção: </label>
+            <select id="inputEstado" class="form-control" required name="Excecao">
+                <option selected>. . .</option>
+                <option value="Sim">SIM</option>
+                <option value="Nao">NÃO</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-6 mb-3 d-flex">
+            <label for="validationDefault03" class="text-nowrap d-flex align-items-center"
+                   style="padding-right: 5px; font-weight:bold">Retenção obrigatória: </label>
+            <input class="form-check-input" type="radio"  id="gridRadios1" value="Sim"
+                   name="RetencaoSim">
+            <label for="validationRadios" class="fs-6"
+                   style="font-weight: 700; padding-right: 3px; font-weight:bold">Sim</label>
+            <input class="form-check-input" type="radio" id="gridRadios2" value="Nao"
+                   style="margin-left: 5px;" name="RetencaoNao">
+            <label for="validationRadios" class="fs-6"
+                   style="font-weight: 700; padding-right: 3px; font-weight:bold;">Não</label>
+        </div>
+        <div class="col-md-3 mb-3 d-flex">
+            <label for="validationDefault04" class="text-nowrap d-flex align-items-center"
+                   style="padding-right: 5px; font-weight:bold">Alíquota: </label>
+            <input type="number" class="form-control" id="idAliquota" placeholder="0,00" required name="Aliquota" oninput="validarAlquota(this)">
+        </div>
+        <div class="col-md-3 mb-3 d-flex">
+            <label for="validationDefault04" class="text-nowrap d-flex align-items-center"
+                   style="padding-right: 5px; font-weight:bold">Recolhimento: </label>
+            <select id="IdRecolhimento" class="form-control" required name="Recolhimento">
+                <option selected>. . .</option>
+                <option value="Fora do município">Fora do município</option>
+                <option value="Dentro do município">Dentro do município</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label text-primary"
+                       style="cursor: pointer; text-decoration: underline; font-size: small;"
+                       for="invalidCheck2">
+                    Concordo com os termos e condições, conforme lista de serviço da lei complementar
+                    116/03
+                </label>
+            </div>
+        </div>
+    </div>
+        <br>
+        <button class="btn btn-outline-primary" type="submit" onclick="valida(this)">Incluir</button>
+        <button class="btn btn-danger" type="button">Voltar</button>
+</form>
+
+<script>
+    var variavelGlobal = null;
+    function validarAlquota(input) {
+        // Remove caracteres não numéricos
+        let valor = input.value.replace(/\D/g, '');
+
+        console.log(valor)
+
+        // Formata para duas casas decimais
+        valor = (valor / 100).toFixed(2);
+
+        variavelGlobal = valor;
+        // Atualiza o valor no input
+        input.value = valor;
+    }
+
+    function valida(input){
+        if (variavelGlobal < 2.00) {
+            document.getElementById("Idform").addEventListener("submit", function (event) {
+                event.preventDefault();
+            })
+            alert("Alíquota minima é 2%");
+            window.location.replace("http://localhost:5011/Home/CadAtividades");
+        }
+        else if (variavelGlobal > 5.00) {
+            document.getElementById("Idform").addEventListener("submit", function (event) {
+                event.preventDefault();
+            })
+            alert("Alíquota maxima é 5%");
+            window.location.replace("http://localhost:5011/Home/CadAtividades");
+        }
+        console.log(variavelGlobal)
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        var selectRecolhimento = document.getElementById('IdRecolhimento');
+        var selectElement = document.getElementById('inputEstado');
+        var simRadio = document.getElementById('gridRadios1');
+        var naoRadio = document.getElementById('gridRadios2');
+
+        selectElement.addEventListener('change', function () {
+            if(selectElement.value === "Nao"){
+                // Se "Sim" for selecionado, desabilita o botão de opção para "Sim" e habilita o botão de opção para "Não"
+                simRadio.checked = false;
+                simRadio.disabled = true;
+                naoRadio.checked = true;
+                naoRadio.disabled = false;
+            }
+            else{
+                // Se "Não" for selecionado, habilita ambos os botões de opção
+                simRadio.disabled = false;
+                naoRadio.disabled = false;
+            }
+        })
+
+        selectRecolhimento.addEventListener('change', function (){
+            if (selectRecolhimento.value === "Fora do município" && selectElement.value === "Sim") {
+                simRadio.checked = false;
+                simRadio.disabled = true;
+                naoRadio.checked = true;
+                naoRadio.disabled = false;
+            }
+            else if (selectRecolhimento.value === "Dentro do município" && selectElement.value === "Sim") {
+                simRadio.checked = true;
+                simRadio.disabled = false;
+                naoRadio.checked = false;
+                naoRadio.disabled = true;
+            }
+        })
+
+
+
+        simRadio.addEventListener('click', function () {
+            if (naoRadio.checked) {
+                naoRadio.checked = false;
+            }
+        });
+
+        naoRadio.addEventListener('click', function () {
+            if (simRadio.checked) {
+                simRadio.checked = false;
+            }
+        });
+    });
+</script>

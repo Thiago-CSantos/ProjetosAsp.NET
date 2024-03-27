@@ -1,0 +1,62 @@
+﻿@model ProjetoDev01.Models.CadastroAtividade
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Atividade</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CodAtividade" class="control-label"></label>
+                <input asp-for="CodAtividade" class="form-control" />
+                <span asp-validation-for="CodAtividade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Grupo" class="control-label"></label>
+                <input asp-for="Grupo" class="form-control" />
+                <span asp-validation-for="Grupo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CodigoFederal" class="control-label"></label>
+                <input asp-for="CodigoFederal" class="form-control" />
+                <span asp-validation-for="CodigoFederal" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descricao" class="control-label"></label>
+                <input asp-for="Descricao" class="form-control" />
+                <span asp-validation-for="Descricao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AtivPrevistaExcecao" class="control-label"></label>
+                <input asp-for="AtivPrevistaExcecao" class="form-control" />
+                <span asp-validation-for="AtivPrevistaExcecao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RetencaoObrigatoria" class="control-label"></label>
+                <input asp-for="RetencaoObrigatoria" class="form-control" />
+                <span asp-validation-for="RetencaoObrigatoria" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Aliquota" class="control-label"></label>
+                <input asp-for="Aliquota" class="form-control" />
+                <span asp-validation-for="Aliquota" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <a asp-action="Index"><i class="fa fa-circle-left fa-2xl" style="color:orangered"></i></a>
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

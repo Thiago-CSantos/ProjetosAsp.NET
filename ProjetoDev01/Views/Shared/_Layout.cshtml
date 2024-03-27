@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ProjetoDev01</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/js/bootstrap.js" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ProjetoDev01.styles.css" asp-append-version="true" />
+    <link href="~/css/all.min.css" rel="stylesheet" />
+    <link href="~/css/fontawesome.min.css" rel="stylesheet" />
+</head>
+<body class="m-0 bg-light">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-primary border-bottom box-shadow mb-3 bg-gradient">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="color:white; font-weight:700; margin: 0 -20px 0 10px">Projeto - Dev - 01</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex ">
+                    <ul class="navbar-nav flex-grow-1 justify-content-evenly">
+                        <li class="nav-item " style="margin-left: -110px">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house-lock fa-xl " style="color: white; padding-right: 7px"></i>Home</a>
+                        </li>
+                        <li class="nav-item "> 
+                            <a class="nav-link text-white" asp-area="" asp-controller="listaUsuario" asp-action=""><i class="fa-solid fa-screwdriver-wrench fa-xl " style="color: white; padding-right: 7px"></i>ADM</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-white" asp-area="" asp-controller="listarAtividades" asp-action=""><i class="fa-solid fa-list-check fa-2xl " style="color: white; padding-right: 7px"></i>Lista de Atividades</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Atividades" asp-action="EmitirNotas"><i class="fa-solid fa-calculator fa-2xl" style="color: white; padding-right: 7px"></i>Simulação</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <main role="main" class="pb-3 main-layout">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/all.min.js"></script>
+    <script src="~/js/fontawesome.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

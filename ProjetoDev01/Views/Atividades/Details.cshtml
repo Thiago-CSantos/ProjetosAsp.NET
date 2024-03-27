@@ -1,0 +1,60 @@
+﻿@model ProjetoDev01.Models.CadastroAtividade
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Atividades</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CodAtividade)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CodAtividade)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Grupo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Grupo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CodigoFederal)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CodigoFederal)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AtivPrevistaExcecao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AtivPrevistaExcecao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RetencaoObrigatoria)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RetencaoObrigatoria)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Aliquota)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Aliquota)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index"><i class="fa fa-circle-left fa-2xl" style="color:orangered"></i></a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id"><i class="fa fa-pen-to-square fa-2xl"></i></a>
+</div>

@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Cadastra-se";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="d-flex justify-content-center">
+    <form class="col-md-6" action="/Home/TestandoPost" method="post" id="Idformulario">
+        <div class="form-group ">
+            <label for="Name">Nome</label>
+            <input type="text" class="form-control" id="Name" placeholder="Nome" name="Name">
+        </div>
+        <div class="form-group ">
+            <label for="Email">Endereço de email</label>
+            <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Seu email" name="Email" required>
+            <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+        </div>
+        <div class="form-group ">
+            <label for="Senha">Senha</label>
+            <input type="password" class="form-control" id="Senha" placeholder="Senha" name="Senha" required>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-outline-success" onclick="validarEmail()">Cadastrar</button>
+            
+        <a href="http://localhost:5011/" class="btn btn-outline-danger">Voltar</a>
+    </form>
+</div>
+
+<script>
+    function validarEmail() {
+        console.log("teste")
+        var Email = document.getElementById('Email').value
+
+        let formData = new FormData();
+        formData.append('email', Email);
+
+        fetch('@Url.Action("validarEmail", "Usuarios")?email=' + encodeURIComponent(Email), { // o validarEmail é o metodo dendro do UsuariosController
+            method: 'GET'
+        })
+            .then(resposta => {
+                if (!resposta.ok) {
+                    
+                        if (resposta.status === 409) {
+                            alert("Email já existente!!");
+                        } else {
+                            throw new Error('Erro ao fazer login');
+                        }
+                    
+                }
+                console.log("Aqui: ", resposta);
+                return resposta.json(); // Transformar a resposta em JSON
+            })
+            .then(dados =>{
+                // se existir dado return true
+                if(dados.existe){
+                    console.log(dados.existe);
+                    alert("Email já existente!!");
+                    return;
+                }
+            })
+            .catch(error => {
+                // Manipular erros
+                console.error(error);
+            });
+    }
+
+</script>

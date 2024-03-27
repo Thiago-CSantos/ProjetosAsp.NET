@@ -1,0 +1,117 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using Microsoft.EntityFrameworkCore
+@using ProjetoDev01.Models;
+@using ProjetoDev1.Models;
+
+@{
+
+    if(ViewBag.parametro != null){
+        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            Cadastrado com <strong>@ViewBag.parametro</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+    // var querySQL = "SELECT Email, Senha FROM Usuario";
+
+    // Obter contexto do banco de dados
+    //using (var context = new BancoDados(new DbContextOptionsBuilder<BancoDados>().UseNpgsql("Host=localhost;Port=5432;Pooling=true;Database=PROJETO_DEVdb;User Id=postgres;Password=root;").Options))
+    //{
+        // Executar consulta SQL e armazenar os resultados em uma lista de objetos Usuario
+        //var usuarios = context.Usuarios.ToList();
+
+        // Exibir os resultados (somente para fins de depuração)
+        //foreach (var usuario in usuarios)
+        //{
+            // Aqui você pode acessar os campos email e senha de cada objeto Usuario
+            // Exemplo de como exibir o email e a senha:
+          //              <p>@usuario.Email, @usuario.Senha</p>
+        //    Console.WriteLine(usuario);
+      //  }
+    //}
+    /*<div class="row">
+        <div class="col-12 col-sm-8 col-md-6 m-auto ">
+            <div class="card border-0 shadow">
+                <div class="card-body">
+                    <div class="w-100 d-flex justify-content-center"><i class="fa-regular fa-user" style="height:100px"></i></div>
+                    <form id="loginForm">
+                        <input type="text" name="" id="email" class="form-control my-4 py-2" placeholder="E-mail" />
+                        <input type="text" name="" id="password" class="form-control my-4 py-2" placeholder="Password" />
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-outline-primary" onclick="submitLoginForm()">Login</button>
+                            <a href="CadastrarUsuario" class="nav-link">Não possui um cadastro?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> */
+}
+
+<div class="container-fluid m-2">
+    <form id="loginForm">
+    <div class="main-login">
+        <div class="left-login">
+            <h2>Faça login <br> para cadastrar uma atividade</h2>
+            <img src="~/img/innovation-animate-blue.svg" alt="Animate Login" class="left-login-image"/>
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                
+                <div class="textfield">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" id="email" class="" placeholder="E-mail" />
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="" id="password" class="" placeholder="Password" />
+                </div>
+                <button type="submit" class="btn-login" onclick="submitLoginForm()">Login</button>
+                <a href="CadastrarUsuario" class="text-white" style="font-size:12pt">Não possui um cadastro?</a>
+            </div>
+        </div>
+    </div>
+    </form>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Impede o envio padrão do formulário
+
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+
+            // Criar um objeto com os dados do formulário
+            var formData = new FormData();
+            formData.append('email', email);
+            formData.append('password', password);
+
+            // Enviar os dados para o servidor usando a API Fetch
+            fetch('@Url.Action("login", "Usuarios")', { // o login é o metodo dendro do UsuariosController
+                method: 'POST',
+                body: formData
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Erro ao fazer login');
+                    }
+                    return response.json(); // Transformar a resposta em JSON
+                })
+                .then(data => {
+                    if (data.success) {
+                        console.log(data.success);
+                        window.location.href = "http://localhost:5011/Home/CadAtividades"; // nomeDoController/nomeDoMetodo
+                    }
+                    else {
+                        window.alert("Error: E-mail ou senha invalido");
+                    }
+                    console.log(data.success);
+                })
+                .catch(error => {
+                    // Manipular erros
+                    console.error(error);
+                });
+        });
+    </script>
+</div>
+

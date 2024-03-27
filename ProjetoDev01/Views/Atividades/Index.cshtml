@@ -1,0 +1,77 @@
+﻿@model IEnumerable<ProjetoDev01.Models.CadastroAtividade>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de atividades</h1>
+
+<p>
+    <a asp-action="Create"><i class="fa fa-circle-plus fa-xl" style="color:#00D673;"></i </a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CodAtividade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Grupo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoFederal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AtivPrevistaExcecao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RetencaoObrigatoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Aliquota)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Recolhimento)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodAtividade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Grupo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodigoFederal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AtivPrevistaExcecao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RetencaoObrigatoria)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Aliquota)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Recolhimento)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-pen-to-square"></i></a> |
+                <a asp-action="Details" asp-route-id="@item.Id"><i class="fa fa-circle-info" style="color:gray"></i></a> |
+                <a asp-action="Delete" asp-route-id="@item.Id"><i class="fa-solid fa-trash" style="color:orangered"></i</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
