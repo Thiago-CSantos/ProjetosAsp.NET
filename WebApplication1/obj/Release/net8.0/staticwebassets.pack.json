@@ -1,0 +1,613 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebApplication1.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\js\\ScriptLogin.js",
+      "PackagePath": "staticwebassets\\js\\ScriptLogin.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\lib\\axios\\CHANGELOG.md"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\axios"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\MIGRATION_GUIDE.md",
+      "PackagePath": "staticwebassets\\lib\\axios\\MIGRATION_GUIDE.md"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\README.md",
+      "PackagePath": "staticwebassets\\lib\\axios\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\SECURITY.md",
+      "PackagePath": "staticwebassets\\lib\\axios\\SECURITY.md"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\dist\\axios.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\dist\\axios.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\dist\\axios.js.map",
+      "PackagePath": "staticwebassets\\lib\\axios\\dist\\axios.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\dist\\axios.min.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\dist\\axios.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\dist\\axios.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\axios\\dist\\axios.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\dist\\browser\\axios.cjs",
+      "PackagePath": "staticwebassets\\lib\\axios\\dist\\browser\\axios.cjs"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\dist\\browser\\axios.cjs.map",
+      "PackagePath": "staticwebassets\\lib\\axios\\dist\\browser\\axios.cjs.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\dist\\esm\\axios.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\dist\\esm\\axios.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\dist\\esm\\axios.js.map",
+      "PackagePath": "staticwebassets\\lib\\axios\\dist\\esm\\axios.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\dist\\esm\\axios.min.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\dist\\esm\\axios.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\dist\\esm\\axios.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\axios\\dist\\esm\\axios.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\dist\\node\\axios.cjs",
+      "PackagePath": "staticwebassets\\lib\\axios\\dist\\node\\axios.cjs"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\dist\\node\\axios.cjs.map",
+      "PackagePath": "staticwebassets\\lib\\axios\\dist\\node\\axios.cjs.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\index.d.cts",
+      "PackagePath": "staticwebassets\\lib\\axios\\index.d.cts"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\axios\\index.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\index.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\adapters\\README.md",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\adapters\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\adapters\\adapters.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\adapters\\adapters.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\adapters\\fetch.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\adapters\\fetch.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\adapters\\http.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\adapters\\http.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\adapters\\xhr.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\adapters\\xhr.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\axios.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\axios.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\cancel\\CancelToken.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\cancel\\CancelToken.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\cancel\\CanceledError.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\cancel\\CanceledError.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\cancel\\isCancel.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\cancel\\isCancel.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\core\\Axios.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\core\\Axios.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\core\\AxiosError.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\core\\AxiosError.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\core\\AxiosHeaders.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\core\\AxiosHeaders.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\core\\InterceptorManager.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\core\\InterceptorManager.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\core\\README.md",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\core\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\core\\buildFullPath.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\core\\buildFullPath.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\core\\dispatchRequest.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\core\\dispatchRequest.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\core\\mergeConfig.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\core\\mergeConfig.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\core\\settle.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\core\\settle.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\core\\transformData.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\core\\transformData.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\defaults\\index.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\defaults\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\defaults\\transitional.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\defaults\\transitional.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\env\\README.md",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\env\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\env\\classes\\FormData.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\env\\classes\\FormData.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\env\\data.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\env\\data.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\AxiosTransformStream.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\AxiosTransformStream.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\AxiosURLSearchParams.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\AxiosURLSearchParams.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\HttpStatusCode.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\HttpStatusCode.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\README.md",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\ZlibHeaderTransformStream.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\ZlibHeaderTransformStream.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\bind.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\bind.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\buildURL.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\buildURL.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\callbackify.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\callbackify.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\combineURLs.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\combineURLs.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\composeSignals.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\composeSignals.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\cookies.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\cookies.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\deprecatedMethod.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\deprecatedMethod.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\formDataToJSON.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\formDataToJSON.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\formDataToStream.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\formDataToStream.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\fromDataURI.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\fromDataURI.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\isAbsoluteURL.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\isAbsoluteURL.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\isAxiosError.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\isAxiosError.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\isURLSameOrigin.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\isURLSameOrigin.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\null.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\null.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\parseHeaders.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\parseHeaders.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\parseProtocol.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\parseProtocol.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\progressEventReducer.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\progressEventReducer.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\readBlob.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\readBlob.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\resolveConfig.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\resolveConfig.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\speedometer.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\speedometer.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\spread.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\spread.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\throttle.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\throttle.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\toFormData.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\toFormData.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\toURLEncodedForm.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\toURLEncodedForm.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\trackStream.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\trackStream.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\helpers\\validator.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\helpers\\validator.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\platform\\browser\\classes\\Blob.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\platform\\browser\\classes\\Blob.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\platform\\browser\\classes\\FormData.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\platform\\browser\\classes\\FormData.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\platform\\browser\\classes\\URLSearchParams.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\platform\\browser\\classes\\URLSearchParams.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\platform\\browser\\index.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\platform\\browser\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\platform\\common\\utils.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\platform\\common\\utils.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\platform\\index.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\platform\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\platform\\node\\classes\\FormData.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\platform\\node\\classes\\FormData.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\platform\\node\\classes\\URLSearchParams.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\platform\\node\\classes\\URLSearchParams.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\platform\\node\\index.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\platform\\node\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\lib\\utils.js",
+      "PackagePath": "staticwebassets\\lib\\axios\\lib\\utils.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\axios\\package.json",
+      "PackagePath": "staticwebassets\\lib\\axios\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.WebApplication1.props",
+      "PackagePath": "build\\WebApplication1.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication1.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication1.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApplication1.props",
+      "PackagePath": "buildTransitive\\WebApplication1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

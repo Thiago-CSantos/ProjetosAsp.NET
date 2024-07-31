@@ -1,0 +1,25 @@
+﻿@model WebApplication1.Models.LoginModel
+<div style="margin-top:10%">
+    <div class="card pt-3 px-5 pb-5 w-50" style="margin: 0 auto;">
+        @using (@Html.BeginForm("ValidaLogin", "Login"))
+        {
+            <h1>Título</h1>
+            <div class="form-group">
+                <label>CPF ou CNPJ</label>
+                @* <input name="username" class="form-control" autocomplete="username" /> *@
+                @Html.TextBoxFor(m => m.cpf_cnpj, new { @class = "form-control" })
+                <span class="text-danger">@ViewBag.ErrorUsername</span>
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                @* <input name="password" class="form-control" type="password" autocomplete="current-password" /> *@
+                @Html.PasswordFor(m => m.senha, new { @class = "form-control" })
+                <span class="text-danger">@ViewBag.ErrorSenha</span>
+            </div>
+            <br />
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+        }
+    </div>
+</div>

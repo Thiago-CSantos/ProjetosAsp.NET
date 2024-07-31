@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\ProjetoDev01\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{66730FC3-3C7A-4588-B39F-6D094325129F}|ProjetoDev01.csproj|c:\\users\\thiag\\desktop\\pastas\\c#\\projetodev01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66730FC3-3C7A-4588-B39F-6D094325129F}|ProjetoDev01.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66730FC3-3C7A-4588-B39F-6D094325129F}|ProjetoDev01.csproj|c:\\users\\thiag\\desktop\\pastas\\c#\\projetodev01\\views\\atividades\\cadastraratividade.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66730FC3-3C7A-4588-B39F-6D094325129F}|ProjetoDev01.csproj|solutionrelative:views\\atividades\\cadastraratividade.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66730FC3-3C7A-4588-B39F-6D094325129F}|ProjetoDev01.csproj|c:\\users\\thiag\\desktop\\pastas\\c#\\projetodev01\\views\\home\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66730FC3-3C7A-4588-B39F-6D094325129F}|ProjetoDev01.csproj|solutionrelative:views\\home\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66730FC3-3C7A-4588-B39F-6D094325129F}|ProjetoDev01.csproj|c:\\users\\thiag\\desktop\\pastas\\c#\\projetodev01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66730FC3-3C7A-4588-B39F-6D094325129F}|ProjetoDev01.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66730FC3-3C7A-4588-B39F-6D094325129F}|ProjetoDev01.csproj|c:\\users\\thiag\\desktop\\pastas\\c#\\projetodev01\\controllers\\atividadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66730FC3-3C7A-4588-B39F-6D094325129F}|ProjetoDev01.csproj|solutionrelative:controllers\\atividadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\ProjetoDev01\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\ProjetoDev01\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T02:44:45.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CadastrarAtividade.cshtml",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\ProjetoDev01\\Views\\Atividades\\CadastrarAtividade.cshtml",
+              "RelativeDocumentMoniker": "Views\\Atividades\\CadastrarAtividade.cshtml",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\ProjetoDev01\\Views\\Atividades\\CadastrarAtividade.cshtml",
+              "RelativeToolTip": "Views\\Atividades\\CadastrarAtividade.cshtml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAnwDsAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T01:23:20.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cadastrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\ProjetoDev01\\Views\\Home\\Cadastrar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Cadastrar.cshtml",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\ProjetoDev01\\Views\\Home\\Cadastrar.cshtml",
+              "RelativeToolTip": "Views\\Home\\Cadastrar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T01:23:18.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AtividadesController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\ProjetoDev01\\Controllers\\AtividadesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AtividadesController.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\ProjetoDev01\\Controllers\\AtividadesController.cs",
+              "RelativeToolTip": "Controllers\\AtividadesController.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T01:22:18.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\ProjetoDev01\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\ProjetoDev01\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAcwBEAAAAJAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwEkAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T23:45:12.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T23:45:12.461Z"
             }
           ]
         }

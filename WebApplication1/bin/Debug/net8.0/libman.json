@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+      "library": "axios@1.7.2",
+      "destination": "wwwroot/lib/axios/"
+    }
+  ]
+}

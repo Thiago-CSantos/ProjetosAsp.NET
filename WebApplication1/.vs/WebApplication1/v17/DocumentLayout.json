@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCCFCB4-2868-4A6A-967E-F5FC8BB4D086}|WebApplication1.csproj|c:\\users\\thiag\\desktop\\pastas\\c#\\webapplication1\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCCFCB4-2868-4A6A-967E-F5FC8BB4D086}|WebApplication1.csproj|solutionrelative:controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCCFCB4-2868-4A6A-967E-F5FC8BB4D086}|WebApplication1.csproj|c:\\users\\thiag\\desktop\\pastas\\c#\\webapplication1\\models\\produtosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCCFCB4-2868-4A6A-967E-F5FC8BB4D086}|WebApplication1.csproj|solutionrelative:models\\produtosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCCFCB4-2868-4A6A-967E-F5FC8BB4D086}|WebApplication1.csproj|c:\\users\\thiag\\desktop\\pastas\\c#\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCCFCB4-2868-4A6A-967E-F5FC8BB4D086}|WebApplication1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCCFCB4-2868-4A6A-967E-F5FC8BB4D086}|WebApplication1.csproj|c:\\users\\thiag\\desktop\\pastas\\c#\\webapplication1\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCCFCB4-2868-4A6A-967E-F5FC8BB4D086}|WebApplication1.csproj|solutionrelative:services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCCFCB4-2868-4A6A-967E-F5FC8BB4D086}|WebApplication1.csproj|c:\\users\\thiag\\desktop\\pastas\\c#\\webapplication1\\services\\produtosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCCFCB4-2868-4A6A-967E-F5FC8BB4D086}|WebApplication1.csproj|solutionrelative:services\\produtosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCCFCB4-2868-4A6A-967E-F5FC8BB4D086}|WebApplication1.csproj|c:\\users\\thiag\\desktop\\pastas\\c#\\webapplication1\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CCCFCB4-2868-4A6A-967E-F5FC8BB4D086}|WebApplication1.csproj|solutionrelative:views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 198,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdutosModel.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\Models\\ProdutosModel.cs",
+              "RelativeDocumentMoniker": "Models\\ProdutosModel.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\Models\\ProdutosModel.cs",
+              "RelativeToolTip": "Models\\ProdutosModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAswEAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T00:00:43.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\Services\\LoginService.cs",
+              "RelativeToolTip": "Services\\LoginService.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAswHcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T23:48:28.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T23:48:28.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\Views\\Produto\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Produto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\Views\\Produto\\Index.cshtml",
+              "RelativeToolTip": "Views\\Produto\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T17:26:02.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "Controllers\\ProdutoController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAADwvxcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T17:25:50.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProdutosService.cs",
+              "DocumentMoniker": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\Services\\ProdutosService.cs",
+              "RelativeDocumentMoniker": "Services\\ProdutosService.cs",
+              "ToolTip": "C:\\Users\\thiag\\Desktop\\Pastas\\C#\\WebApplication1\\Services\\ProdutosService.cs",
+              "RelativeToolTip": "Services\\ProdutosService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAFAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T17:25:45.396Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+﻿@model WebApplication1.Models.ProdutosModel;
+@{
+    ViewData["Title"] = "Adicionar Produto";
+}
+
+<h1>Adicionar Produto</h1>
+<div class="container">
+    @using (@Html.BeginForm("CadastraProduto", "Produto"))
+    {
+        <div class="row g-3">
+            <div class="col-md-6">
+                <label for="nome">Nome</label>
+                @Html.TextBoxFor(m => m.nome, new { @class = "form-control", required = "required" })
+            </div>
+            <div class="col-md-6">
+                <label for="descricao">Descrição</label>
+                @Html.TextBoxFor(m => m.descricao, new { @class = "form-control", required = "required" })
+            </div>
+            <div class="col-md-6">
+                <label for="SKU">Codigo SKU</label>
+                @Html.TextBoxFor(m => m.SKU, new { @class = "form-control", required = "required" })
+            </div>
+            <div class="col-sm-3">
+                <label for="quantidade">Quantidade (Uni)</label>
+                @Html.TextBoxFor(m => m.quantidade, new { @class = "form-control", type = "number", min = "1", required = "required" })
+            </div>
+        </div>
+        <div class="rounded g-4">
+            <label for="cod_barra">Codigo de barra</label>
+            @Html.TextBoxFor(m => m.codigoBarra, new { @class = "form-control", required = "required" })
+        </div>
+        <div class="row g-3">
+            <div class="col-sm-3">
+                <label for="categoria">Categoria</label>
+                @Html.DropDownListFor(m => m.categoria, Model.listCategoria, new { @class = "form-control", required = "required" })
+            </div>
+            <div class="col-md-1">
+                <br />
+                <!-- Button trigger modal -->
+                <button id="btnAddCategoria" class="btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#modalCategoria">
+                    Adicionar
+                </button>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <button type="submit" class="btn btn-success">Adicionar produto</button>
+        </div>
+    }
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="modalCategoria" tabindex="-1" aria-labelledby="modalCategoria" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalCategoria">Adicionar Cateforia</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input id="categoriaAdd" type="text" name="name" class="form-control" />
+                <p id="resposta" class="text-info text-center"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="limpar()">Close</button>
+                <button type="button" class="btn btn-primary" onclick="AddCategoria()">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    function AddCategoria() {
+        console.log("teste")
+        const categoriaAdd = document.getElementById("categoriaAdd").value;
+
+        const resposta = fetch("/Produto/InsertCategoria?categoria=" + categoriaAdd, {
+            method: "POST",
+        }).then(r => {
+
+            if(r.status != 409 || r.status != 500) {
+                console.log(r.status);
+                document.getElementById("resposta").innerHTML = `<p>${r.status}<p>`
+                // Obtenha o modal e o feche
+                //var myModal = bootstrap.Modal.getInstance(document.getElementById('modalCategoria'));
+                //myModal.hide();
+            }
+            else{
+                document.getElementById("resposta").innerHTML = `<p>${ERROR}<p>`
+            }
+
+        }).catch(error => {
+            console.error('Erro:', error);
+        });
+
+    }
+
+    function limpar(){
+        document.getElementById("resposta").innerHTML = ""
+    }
+
+</script>

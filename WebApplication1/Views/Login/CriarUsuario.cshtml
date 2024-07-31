@@ -1,0 +1,50 @@
+﻿@model WebApplication1.Models.LoginModel
+
+<h4>Cadastrar Acesso</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        @using (Html.BeginForm("CreateUsers", "Login"))
+        {
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                @Html.Label("CNPJ/CPF")
+                @Html.TextBoxFor(m => m.cpf_cnpj, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.cpf_cnpj, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Nome")
+                @Html.TextBoxFor(m => m.nome, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.nome, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Username")
+                @Html.TextBoxFor(m => m.username, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.username, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Senha")
+                @Html.PasswordFor(m => m.senha, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.senha, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Roles")
+                @Html.TextBoxFor(m => m.roles, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.roles, "", new { @class = "text-danger" })
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        }
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
